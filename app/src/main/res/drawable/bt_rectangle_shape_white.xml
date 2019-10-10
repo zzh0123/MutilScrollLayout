@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--shape用于定义形状，有四种形状(矩形rectangle| 椭圆oval | 直线line | 圆形ring)-->
+    <!--solid用于设置填充形状的颜色-->
+    <solid android:color="@android:color/white" />
+
+    <!-- 设置边框宽度为1dp，边框颜色 -->
+    <stroke
+        android:width="0dp"
+        android:color="@android:color/white" />
+
+    <!--corners用于创建圆角（只用于形状是矩形）-->
+    <corners
+        android:bottomLeftRadius="25dip"
+        android:bottomRightRadius="25dip"
+        android:topLeftRadius="25dip"
+        android:topRightRadius="25dip" />
+</shape>
